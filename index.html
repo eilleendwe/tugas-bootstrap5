@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Bootstrap 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-navbar px-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i></i>Lifestyle Vibes</a>
+        <button
+          class="navbar-toggler d-flex d-lg-none flex-column justify-content-around"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-sm px-0">
+      <div>
+        <h2>Welcome to the Lifestyle Hub</h2>
+        <p>Explore trends, wellness, and living your best life</p>
+      </div>
+      <div>
+        <p>
+          Lifestyle is all about finding balance, embracing health, and living
+          in the moment. Whether you're into fitness, mindfulness, or just
+          looking to elevate your daily routines, you've come to the right
+          place.
+        </p>
+      </div>
+      <div>
+        <img src="./images/hero.png" class="img-fluid" alt="..." />
+        <p>Photo from Unsplash</p>
+      </div>
+
+      <div>
+        <h2>Latest in Wellness</h2>
+        <p>
+          Discover the latest trends in wellness, from meditation techniques to
+          fitness tips that keep you grounded and healthy.
+        </p>
+      </div>
+      <div>
+        <h2>Explore Fashion & Trends</h2>
+        <p>
+          Stay ahead in fashion with insights into what's trending, sustainable
+          fashion tips, and more.
+        </p>
+      </div>
+    </main>
+
+    <div
+      class="container newsletter-container d-flex flex-column mt-3 mb-5 p-5"
+    >
+      <h2>Join Our Community</h2>
+      <p>Subscribe for the latest lifestyle updates</p>
+      <form class="row justify-content-center">
+        <div class="col-12 col-md-4 mb-3">
+          <input type="text" class="form-control" placeholder="First Name" />
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <input type="email" class="form-control m-0" placeholder="Email" />
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <button type="submit" class="btn btn-subscribe btn-primary w-100">
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold text-info">
+              Lifestyle Vibes
+            </h5>
+            <hr class="mb-4" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              sagittis, nisi at egestas dictum, risus ligula accumsan erat, et
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold text-info">
+              Products
+            </h5>
+            <hr class="mb-4" />
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold text-info">
+              Useful Links
+            </h5>
+            <hr class="mb-4" />
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >The Provider</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold text-info">
+              Contact
+            </h5>
+            <hr class="mb-4" />
+            <p>
+              <li class="fas fa-home mr-3"></li>
+              New York
+            </p>
+            <p>
+              <li class="fas fa-home mr-3"></li>
+              New York
+            </p>
+            <p>
+              <li class="fas fa-home mr-3"></li>
+              New York
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row d-flex justify-content-center">
+          <div>
+            <p>
+              Copyright 2020 All Rights Reserved By:
+              <a href="#" style="text-decoration: none">
+                <strong class="text-info">Lifestyle Vibe</strong>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="text-center">
+            <ul class="list-unstyle list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><li class="fab fa-facebook-square"></li
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><li class="fab fa-linkedin-in"></li
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><li class="fab fa-instagram"></li
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><li class="fab fa-twitter"></li
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><li class="fab fa-tumblr"></li
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
