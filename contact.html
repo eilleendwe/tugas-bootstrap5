@@ -15,8 +15,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg custom-navbar px-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><i></i>Lifestyle Vibes</a>
@@ -24,8 +29,8 @@
           class="navbar-toggler d-flex d-lg-none flex-column justify-content-around"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -52,6 +57,225 @@
         </div>
       </div>
     </nav>
+
+    <!-- Contact us -->
+    <div class="container contact-section py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-last text-center illustration mb-3">
+          <img
+            src="./images/contact.png"
+            alt=""
+            class="img-fluid"
+            width="500"
+            height="400"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="contact-form">
+            <h1 class="display-4 text-danger fw-bold">Contact us</h1>
+            <p class="text-muted">
+              Get in touch and let us know how we can help
+            </p>
+            <form>
+              <div class="row mb-3">
+                <div class="col">
+                  <input
+                    class="form-control border-2"
+                    placeholder="Name"
+                    type="text"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    class="form-control border-2"
+                    placeholder="E-mail"
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <select class="form-select border-2">
+                  <option>Topic</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control border-2"
+                  placeholder="Your message"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="form-check mb-3">
+                <input
+                  class="form-check-input"
+                  id="newsletter"
+                  type="checkbox"
+                />
+                <label class="form-check-label" for="newsletter">
+                  Please sign me up for the Lifestyle Vibes newsletter
+                </label>
+              </div>
+              <div class="d-flex justify-content-start">
+                <button class="btn btn-danger w-50 fw-bold" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <div class="follow-us mt-4">
+              <p class="mb-0">Follow Lifestyle Vibes</p>
+              <ul class="list-unstyle list-inline">
+                <a href="#" class="me-1"
+                  ><li class="fab fa-facebook-square"></li
+                ></a>
+                <a href="#" class="me-1"><li class="fab fa-instagram"></li></a>
+                <a href="#" class="me-1"><li class="fab fa-twitter"></li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Address -->
+    <div class="container py-5">
+      <div class="row g-5 align-items-center">
+        <div class="col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63242.22095195884!2d106.82792417617622!3d-6.172764128379174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6d45c52460f%3A0xe90bc1e58d4d621e!2sUniversitas%20Tarumanagara!5e0!3m2!1sen!2sid!4v1635460242300!5m2!1sen!2sid"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-uppercase">Address</h3>
+          <h1 class="my-3 fw-bold display-4 text-danger">Lifestyle Vibes</h1>
+
+          <div class="my-3">
+            <p class="mb-0 fs-5">
+              Letjen S. Parman Street No.1 <br />
+              Tanjung Duren Selatan, Grogol Petamburan <br />
+              11470 Jakarta, Indonesia
+            </p>
+          </div>
+
+          <p class="my-3 fs-5 text-danger">Email — lifestyle_vibes@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold">
+              Lifestyle Vibes
+            </h5>
+            <hr class="mb-4" />
+            <p>
+              Your go-to destination for all things wellness and lifestyle. We
+              strive to inspire and empower you to lead a balanced and
+              fulfilling life.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold">Products</h5>
+            <hr class="mb-4" />
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Health Supplements</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Yoga Gear</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Fitness Equipment</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold">Useful Links</h5>
+            <hr class="mb-4" />
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >About Us</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Blog</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >FAQs</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-3 font-weight-bold">Contact</h5>
+            <hr class="mb-4" />
+            <p>
+              <i class="fas fa-home mr-3"></i>
+              Jakarta, Indonesia
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>
+              @gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i>
+              +62 123 4567 890
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row d-flex justify-content-center">
+          <div>
+            <p>
+              Copyright &copy; 2024 All Rights Reserved By:
+              <a href="#" style="text-decoration: none">
+                <strong class="text-dark">Lifestyle Vibes</strong>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="text-center">
+            <ul class="list-unstyle list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-dark"><i class="fab fa-tumblr"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
