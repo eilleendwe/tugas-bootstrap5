@@ -106,9 +106,9 @@ input.form-control:focus {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-.card:hover {
+/* .card:hover {
     transform: translateY(-10px);
-}
+} */
 
 
 .img1 img {
