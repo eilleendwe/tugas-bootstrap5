@@ -24,7 +24,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg custom-navbar px-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i></i>Lifestyle Vibes</a>
+        <a class="navbar-brand" href="#">Lifestyle Vibes</a>
         <button
           class="navbar-toggler d-flex d-lg-none flex-column justify-content-around"
           type="button"
@@ -51,7 +51,7 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#newsletter">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -59,13 +59,13 @@
     </nav>
 
     <!-- Main content -->
-    <main class="container-sm px-0">
+    <main class="container-sm px-2">
       <div>
-        <h2 class="mb-0">About Lifestyle Vibes</h2>
-        <p>Our Story & Vision</p>
+        <h2 class="mb-0 orange-text">About Lifestyle Vibes</h2>
+        <p class="dark-blue-text">Our Story & Vision</p>
       </div>
       <div>
-        <p>
+        <p class="fs-5">
           Lifestyle Vibes was created with a simple goal: to help people live
           better, healthier, and more fulfilling lives. We believe that true
           happiness comes from balance, mindfulness, and a deep connection to
@@ -111,8 +111,8 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Embrace a Healthier Lifestyle</h5>
-                <p>
+                <h5 class="fs-4 fw-bold">Embrace a Healthier Lifestyle</h5>
+                <p class="fs-5">
                   Discover tips and tricks to enhance your well-being and lead a
                   more fulfilling life.
                 </p>
@@ -125,8 +125,8 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Mindfulness and Meditation</h5>
-                <p>
+                <h5 class="fs-4 fw-bold">Mindfulness and Meditation</h5>
+                <p class="fs-5">
                   Explore the benefits of mindfulness and meditation for a
                   calmer, more centered you.
                 </p>
@@ -139,8 +139,8 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Fitness for Every Body</h5>
-                <p>
+                <h5 class="fs-4 fw-bold">Fitness for Every Body</h5>
+                <p class="fs-5">
                   Get inspired with workouts and fitness routines tailored for
                   all levels of ability.
                 </p>
@@ -170,8 +170,8 @@
 
       <!-- Mission -->
       <div class="container my-4 p-0">
-        <h2 class="">Our Mission</h2>
-        <p class="mb-4">
+        <h2 class="orange-text">Our Mission</h2>
+        <p class="mb-4 fs-5">
           Our mission is to inspire and empower individuals to live consciously.
           We cover various aspects of life, including wellness, fitness, and
           lifestyle to elevate everyday experiences.
@@ -179,10 +179,10 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <!-- Wellness Card -->
-          <div class="col">
+          <div class="col mission-card">
             <div class="card h-100 text-center">
               <div class="main-text card-body">
-                <div class="mb-3">
+                <div class="mb-3 p-3">
                   <i class="fas fa-heartbeat text-success large-icon"></i>
                 </div>
                 <h2 class="card-title">Wellness</h2>
@@ -195,10 +195,10 @@
           </div>
 
           <!-- Fitness Card -->
-          <div class="col">
+          <div class="col mission-card">
             <div class="card h-100 text-center">
               <div class="main-text card-body">
-                <div class="mb-3">
+                <div class="mb-3 p-3">
                   <i class="fas fa-fire-alt text-danger large-icon"></i>
                 </div>
                 <h2 class="card-title">Fitness</h2>
@@ -211,10 +211,10 @@
           </div>
 
           <!-- Lifestyle  Card -->
-          <div class="col">
+          <div class="col mission-card">
             <div class="card h-100 text-center">
               <div class="main-text card-body">
-                <div class="mb-3">
+                <div class="mb-3 p-3">
                   <i class="fas fa-shopping-bag text-warning large-icon"></i>
                 </div>
                 <h2 class="card-title">Lifestyle</h2>
@@ -230,8 +230,8 @@
 
       <!-- Meet the teams -->
       <div>
-        <h2>Meet The Team</h2>
-        <p>
+        <h2 class="orange-text">Meet The Team</h2>
+        <p class="fs-5">
           Our team consists of wellness enthusiasts, fitness experts, and
           lifestyle gurus. We're dedicated to bringing you the latest insights
           and trends to help you live your best life.
@@ -312,35 +312,42 @@
           </div>
         </div>
       </div>
-    </main>
 
-    <!-- Newsletter -->
-    <div
-      class="container newsletter-container d-flex flex-column mt-3 mb-5 p-5"
-    >
-      <h2>Stay in the Loop</h2>
-      <p>Subscribe to Our Newsletter</p>
-      <form class="row justify-content-center">
-        <div class="col-12 col-md-4 mb-3">
-          <input type="text" class="form-control" placeholder="First Name" />
-        </div>
-        <div class="col-12 col-md-4 mb-3">
-          <input type="email" class="form-control m-0" placeholder="Email" />
-        </div>
-        <div class="col-12 col-md-4 mb-3">
-          <button type="submit" class="btn btn-subscribe btn-primary w-100">
-            Subscribe
-          </button>
-        </div>
-      </form>
-    </div>
+      <!-- Newsletter -->
+      <div
+        class="container newsletter-container d-flex flex-column mt-5 mb-5 p-5"
+        id="newsletter"
+      >
+        <h2 class="orange-text">Stay in the Loop</h2>
+        <p class="fs-5">Subscribe to Our Newsletter</p>
+        <form class="row justify-content-center">
+          <div class="col-12 col-md-4 mb-3">
+            <input
+              type="text"
+              class="form-control p-2"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <input
+              type="email"
+              class="form-control m-0 p-2"
+              placeholder="Email"
+            />
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <button type="submit" class="btn w-100">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer pt-5 pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-3 font-weight-bold">
+            <h5 class="text-uppercase mb-3 font-weight-bold orange-text">
               Lifestyle Vibes
             </h5>
             <hr class="mb-4" />
@@ -351,7 +358,9 @@
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-3 font-weight-bold">Products</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold orange-text">
+              Products
+            </h5>
             <hr class="mb-4" />
             <p>
               <a href="#" class="text-dark" style="text-decoration: none"
@@ -370,7 +379,9 @@
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-3 font-weight-bold">Useful Links</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold orange-text">
+              Useful Links
+            </h5>
             <hr class="mb-4" />
             <p>
               <a href="#" class="text-dark" style="text-decoration: none"
@@ -389,7 +400,9 @@
             </p>
           </div>
           <div class="col-md-2 col-lg-3 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-3 font-weight-bold">Contact</h5>
+            <h5 class="text-uppercase mb-3 font-weight-bold orange-text">
+              Contact
+            </h5>
             <hr class="mb-4" />
             <p>
               <i class="fas fa-home mr-3"></i>
@@ -397,7 +410,7 @@
             </p>
             <p>
               <i class="fas fa-envelope mr-3"></i>
-              @gmail.com
+              lifestyle@gmail.com
             </p>
             <p>
               <i class="fas fa-phone mr-3"></i>
@@ -411,7 +424,7 @@
             <p>
               Copyright &copy; 2024 All Rights Reserved By:
               <a href="#" style="text-decoration: none">
-                <strong class="text-dark">Lifestyle Vibes</strong>
+                <strong class="orange-text">Lifestyle Vibes</strong>
               </a>
             </p>
           </div>
@@ -420,25 +433,29 @@
           <div class="text-center">
             <ul class="list-unstyle list-inline">
               <li class="list-inline-item">
-                <a href="#" class="text-dark"
+                <a href="#" class="orange-text"
                   ><i class="fab fa-facebook-square"></i
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-dark"
+                <a href="#" class="orange-text"
                   ><i class="fab fa-linkedin-in"></i
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-dark"
+                <a href="#" class="orange-text"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="orange-text"
+                  ><i class="fab fa-twitter"></i
+                ></a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-dark"><i class="fab fa-tumblr"></i></a>
+                <a href="#" class="orange-text"
+                  ><i class="fab fa-tumblr"></i
+                ></a>
               </li>
             </ul>
           </div>
